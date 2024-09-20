@@ -3,13 +3,13 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #fff;
+  background-color: #c3ae9d;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .logo img {
-  width: 120px;
-  height: 100px;
+  width: 160px;
+  height: 110px;
 }
 
 nav {
@@ -35,7 +35,7 @@ nav {
 .menu a {
   display: block;
   padding: 10px;
-  color: #333;
+  color: #333333;
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;

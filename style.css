@@ -12,7 +12,7 @@ img {
 }
 
 body {
-  background-color: white;
+  background-color: #c3ae9d;
   list-style: none;
 }
 
@@ -22,7 +22,7 @@ main {
 }
 
 footer {
-  background-color: white;
+  background-color: #c3ae9d;
   color: black;
 }
 
@@ -53,6 +53,30 @@ a {
 
 a:hover {
   color: red;
+}
+.tv {
+  width: 800px;
+  height: 800px;
+  z-index: 100;
+  position: relative;
+  margin: 0 auto;
+}
+
+.play img {
+  width: 200px;
+  height: 200px;
+  z-index: 120;
+  position: absolute;
+  top: 70%;
+  right: 40%;
+  transform: translate(-50%, -50%);
+}
+.play a {
+  display: inline-block;
+}
+
+.play a img {
+  cursor: pointer;
 }
 
 @media (min-width: 800px) {
